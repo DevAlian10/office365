@@ -1,8 +1,6 @@
 .container-fluid, .xsm-img, .sm-img, .md-img, .lg-img, .xlg-img{
     background-color: black;
 }
-
-
 @media screen and (min-width: 280px) {
     .corral {
         margin: 0 auto;

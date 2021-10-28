@@ -20,7 +20,6 @@ input{
 input:hover{
     border-color: rgba(0,0,0,0.8);
 }
-
 .btnAtras{
     padding: 4px 12px 4px 12px;
     max-width: 100%;
@@ -64,7 +63,6 @@ a {
     color: #0067b8;
     cursor: pointer;
 }
-
 .corral {
     margin: 0 auto;
     width: 460px;

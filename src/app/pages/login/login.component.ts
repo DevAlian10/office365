@@ -15,6 +15,7 @@ export class LoginComponent implements OnInit {
     page2: boolean = false;
     alert: boolean = false;
     correo: string = "";
+    
     constructor(private formBuilder: FormBuilder, private service: LoginService, private router: Router) { }
 
     ngOnInit(): void {
