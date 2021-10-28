@@ -1,0 +1,72 @@
+h4{
+    color: #1b1b1b;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+input{
+    border-style: solid;
+    padding: 6px 10px;
+    border-width: 1px;
+    height: 36px;
+    outline: none;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+    width: 100%;
+}
+input:hover{
+    border-color: rgba(0,0,0,0.8);
+}
+
+.btnAtras{
+    padding: 4px 12px 4px 12px;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    touch-action: manipulation;
+    color: #000;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    min-height: 32px;
+    border: none;
+    margin-right: 6px;
+}
+.btnSig{
+    padding: 4px 12px 4px 12px;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    touch-action: manipulation;
+    color: #000;
+    border-style: solid;
+    border-width: 2px;
+    min-height: 32px;
+    border: none;
+    color: #fff;
+    border-color: #0067b8;
+    background-color: #0067b8;
+}
+.iconoBack{
+    margin-top: -18px;
+    cursor: pointer;
+}
+a {
+    color: #0067b8;
+    cursor: pointer;
+}
+
+.corral {
+    margin: 0 auto;
+    width: 460px;
+    position: relative;
+}

@@ -1,0 +1,363 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand mt-0" href="#">
+        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+            width="108" height="23" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item mt-1 font-weight-normal">
+                <a class="nav-link" routerLink="/login" routerLinkActive> Office </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mt-1 font-weight-normal" routerLink="/login">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mt-1 font-weight-normal" routerLink="/login">Recursos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mt-1 font-weight-normal" routerLink="/login">Más</a>
+            </li>
+        </ul>
+        <a routerLink="/login" class="mr-auto text-dark mt-1 xsm-img sm-img md-img">Iniciar sesión</a>
+    </div>
+    <a routerLink="/login" class="mr-auto text-dark mt-1 lg-img xlg-img">Iniciar sesión</a>
+</nav>
+<!-- Pantallas extra chicas -->
+<div class="container xsm-img">
+    <div class="row">
+        <div class="col-sm text-center mt-5">
+            <h1>Le damos la bienvenida a Office</h1>
+            <p>Su lugar para crear, comunicarse, colaborar y realizar un trabajo excelente.</p>
+            <div class="mt-5 mb-3">
+                <button class="button-login" [routerLink]="['/login']">Iniciar sesión</button>
+                <button class="button-get" routerLink="/login">Obtener Office</button>
+            </div>
+            <div class="mb-4">
+                <p class="suscribe">Suscríbete a la versión gratuita de Office ></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pantallas chicas -->
+<div class="container sm-img">
+    <div class="row">
+        <div class="col-sm text-center mt-5">
+            <h1>Le damos la bienvenida a Office</h1>
+            <p>Su lugar para crear, comunicarse, colaborar y realizar un trabajo excelente.</p>
+            <div class="mt-5 mb-3">
+                <button class="button-login" [routerLink]="['/login']">Iniciar sesión</button>
+                <button class="button-get" routerLink="/login">Obtener Office</button>
+            </div>
+            <div class="mb-4">
+                <p class="suscribe font-weight-bold">Suscríbete a la versión gratuita de Office ></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pantallas medianas -->
+<div class="container md-img">
+    <div class="row">
+        <div class="col-sm text-center mt-5">
+            <h1>Le damos la bienvenida a Office</h1>
+            <p>Su lugar para crear, comunicarse, colaborar y realizar un trabajo excelente.</p>
+            <div class="mt-5 mb-3">
+                <button class="button-login" [routerLink]="['/login']">Iniciar sesión</button>
+                <button class="button-get" routerLink="/login">Obtener Office</button>
+            </div>
+            <div class="mb-4">
+                <p class="suscribe font-weight-bold">Suscríbete a la versión gratuita de Office ></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pantallas grandes -->
+<div class="col lg lg-img">
+    <div class="py-lg-5 mx-lg-5">
+        <div class="row py-lg-5 mt-lg-5">
+            <div class="col col-lg-4 text-white">
+                <h1 class="text-white">Le damos la bienvenida a Office</h1>
+                <p class="text-white">Su lugar para crear, comunicarse, colaborar y realizar un trabajo excelente.</p>
+                <div class="mt-2 mb-4">
+                    <button class="button-login" [routerLink]="['/login']">Iniciar sesión</button>
+                    <button class="button-get" routerLink="/login">Obtener Office</button>
+                </div>
+                <div class="my-3">
+                    <span><strong class="negrita">Suscríbete a la versión gratuita de Office ></strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Pantallas full -->
+<div class="col lg xlg-img">
+    <div class="py-1 mx-5">
+        <div class="row py-5 mt-5">
+            <div class="col col-4 text-white ml-5">
+                <h1 class="text-white">Le damos la bienvenida a Office</h1>
+                <p class="text-white">Su lugar para crear, comunicarse, colaborar y realizar un trabajo excelente.</p>
+                <div class="mt-2 mb-4">
+                    <button class="button-login" [routerLink]="['/login']">Iniciar sesión</button>
+                    <button class="button-get" routerLink="/login">Obtener Office</button>
+                    <br>
+                    <span><strong class="negrita">Suscríbete a la versión gratuita de Office ></strong></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="sm-img">
+    <img src="https://res-1.cdn.office.net/officehub/images/content/images/hero-sm-5b496137f1.jpg" alt="" class=" img-fluid my-4">
+    <div class="container-fluid text-center">
+        <h4 class="">Office para Android™</h4>
+        <p class="font-weight-light" style="font-size: 12px;">Obtenga las aplicaciones Word, Excel, PowerPoint, Outlook y OneNote diseñadas para su Android™.</p>
+        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center mt-5 mb-2 p-1">
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgWord.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">Word</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgExcel.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">Excel</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgPowerPoint.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">PowerPoint</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgNote.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">OneNote</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgOneDrive.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">OneDrive</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgOutlook.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">Outlook</p>
+            </div>
+        </div>
+        <img src="https://res-1.cdn.office.net/officehub/images/content/images/app-store-icons/google-play/app-store_es-f5e7490db4.png" alt="" class="img-fluid text-center mb-5" style="width: 135px; height: 35px;">
+        <img src="https://res-1.cdn.office.net/officehub/images/content/images/office-apps-mobile-43aaa71a74.gif" alt="" class="img-fluid mt-5">
+    </div>
+    <div class="text-center mt-5 p-2">
+        <h2 class="p-4" style="font-size: 20px; font-weight: bold; line-height: normal;">Consigue aplicaciones premium de Office con Microsoft 365</h2>
+        <div class="d-flex flex-row flex-wrap justify-content-around align-items-center my-5 fondoApps">
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/facebook-refresh-090a700c0f.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/twitter-refresh-93ca1a80ff.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/linkedin-refresh-02734a460c.png" alt="">
+            </div>
+        </div>
+        <h4 style="font-size: 20px; font-weight: bold; line-height: normal;">© Microsoft 2021</h4>
+    </div>
+</div>
+<div class="xsm-img">
+    <!-- <img src="https://res-1.cdn.office.net/officehub/images/content/images/hero-xs-f51b963e9f.jpg" alt="" class=" img-fluid my-4"> -->
+    <img src="https://res-1.cdn.office.net/officehub/images/content/images/hero-sm-5b496137f1.jpg" alt="" class=" img-fluid my-4">
+    <div class="container-fluid text-center">
+        <h4 class="">Office para Android™</h4>
+        <p class="font-weight-light" style="font-size: 12px;">Obtenga las aplicaciones Word, Excel, PowerPoint, Outlook y OneNote diseñadas para su Android™.</p>
+        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center mt-5 mb-3 p-1">
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgWord.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">Word</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgExcel.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">Excel</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgPowerPoint.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">PowerPoint</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgNote.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">OneNote</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgOneDrive.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">OneDrive</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgOutlook.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">Outlook</p>
+            </div>
+        </div>
+        <img src="https://res-1.cdn.office.net/officehub/images/content/images/app-store-icons/google-play/app-store_es-f5e7490db4.png" alt="" class="img-fluid mb-5" style="width: 135px; height: 35px;">
+        <img src="https://res-1.cdn.office.net/officehub/images/content/images/office-apps-mobile-43aaa71a74.gif" alt="" class="img-fluid mt-4">
+    </div>
+    <div class="text-center mt-5 p-2">
+        <h2 class="p-4" style="font-size: 20px; font-weight: bold; line-height: normal;">Consigue aplicaciones premium de Office con Microsoft 365</h2>
+        <div class="d-flex flex-row flex-wrap justify-content-around align-items-center my-5 fondoApps">
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/facebook-refresh-090a700c0f.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/twitter-refresh-93ca1a80ff.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/linkedin-refresh-02734a460c.png" alt="">
+            </div>
+        </div>
+        <h4 style="font-size: 20px; font-weight: bold; line-height: normal;">© Microsoft 2021</h4>
+    </div>
+</div>
+<div class="md-img">
+    <img src="https://res-1.cdn.office.net/officehub/images/content/images/hero-md-9db2f4c3f2.jpg" alt="" class=" img-fluid my-4">
+    <div class="container-fluid text-center">
+        <h4 class="" style="font-size: 24px;">Office para Android™</h4>
+        <p class="font-weight-light" style="font-size: 12px;">Obtenga las aplicaciones Word, Excel, PowerPoint, Outlook y OneNote diseñadas para su Android™.</p>
+        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center mt-5 mb-2 p-1">
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgWord.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">Word</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgExcel.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">Excel</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgPowerPoint.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">PowerPoint</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgNote.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">OneNote</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgOneDrive.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">OneDrive</p>
+            </div>
+            <div class="align-self-center" style="width: 48px; height: 48px; margin: 0 28px 30px 0;">
+                <img src="../../../assets/imgOutlook.svg" alt="Word" style="width: 30px; height: 30px;">
+                <p class="imgs" style="font-size: 12px;">Outlook</p>
+            </div>
+        </div>
+        <img src="https://res-1.cdn.office.net/officehub/images/content/images/app-store-icons/google-play/app-store_es-f5e7490db4.png" alt="" class="img-fluid text-center mb-5" style="width: 135px; height: 35px;">
+        <img src="https://res-1.cdn.office.net/officehub/images/content/images/office-apps-mobile-43aaa71a74.gif" alt="" class="img-fluid mt-5">
+    </div>
+    <div class="text-center mt-5 p-2">
+        <h2 class="p-4" style="font-size: 20px; font-weight: bold; line-height: normal;">Consigue aplicaciones premium de Office con Microsoft 365</h2>
+        <div class="d-flex flex-row flex-wrap justify-content-around align-items-center my-5 fondoApps">
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/facebook-refresh-090a700c0f.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/twitter-refresh-93ca1a80ff.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/linkedin-refresh-02734a460c.png" alt="">
+            </div>
+        </div>
+        <h4 style="font-size: 20px; font-weight: bold; line-height: normal;">© Microsoft 2021</h4>
+    </div>
+</div>
+<div class="col text-center lg-img">
+    <h2 class="my-5">Inicia sesión para usar tus aplicaciones de productividad favoritas desde cualquier dispositivo</h2>
+    <div class="d-flex flex-row flex-wrap justify-content-center align-items-center my-5 p-1">
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgWord.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">Word</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgExcel.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">Excel</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgPowerPoint.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">PowerPoint</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgNote.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">OneNote</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgOneDrive.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">OneDrive</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgOutlook.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">Outlook</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgTeams.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">Teams</p>
+        </div>
+    </div>
+    <img src="https://res-1.cdn.office.net/officehub/images/content/images/office-apps-347d86a528.gif" alt="" style="width: 100%;" class="my-5">
+    <div class="text-center mt-5 p-2">
+        <h2 class="">Consigue aplicaciones premium de Office con Microsoft 365</h2>
+        <div class="d-flex flex-row flex-wrap justify-content-around align-items-center my-5 fondoApps">
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/facebook-refresh-090a700c0f.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/twitter-refresh-93ca1a80ff.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/linkedin-refresh-02734a460c.png" alt="">
+            </div>
+        </div>
+        <h4>© Microsoft 2021</h4>
+    </div>
+</div>
+<div class="col text-center xlg-img">
+    <h2 class="my-5">Inicia sesión para usar tus aplicaciones de productividad favoritas desde cualquier dispositivo</h2>
+    <div class="d-flex flex-row flex-wrap justify-content-center align-items-center my-5 p-1">
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgWord.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">Word</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgExcel.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">Excel</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgPowerPoint.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">PowerPoint</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgNote.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">OneNote</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgOneDrive.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">OneDrive</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgOutlook.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">Outlook</p>
+        </div>
+        <div class="align-self-center" style="width: 100px; height: 100px; margin: 0 28px 30px 0;">
+            <img src="../../../assets/imgTeams.svg" alt="Word" style="width: 60px; height: 60px;">
+            <p class="imgs">Teams</p>
+        </div>
+    </div>
+    <img src="https://res-1.cdn.office.net/officehub/images/content/images/office-apps-347d86a528.gif" alt="" style="width: 100%;" class="my-5">
+    <div class="text-center mt-5 p-2">
+        <h2 class="">Consigue aplicaciones premium de Office con Microsoft 365</h2>
+        <div class="d-flex flex-row flex-wrap justify-content-around align-items-center my-5 fondoApps">
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/facebook-refresh-090a700c0f.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/twitter-refresh-93ca1a80ff.png" alt="">
+            </div>
+            <div class="align-self-center">
+                <img src="https://res-1.cdn.office.net/officehub/images/content/images/linkedin-refresh-02734a460c.png" alt="">
+            </div>
+        </div>
+        <h4>© Microsoft 2021</h4>
+    </div>
+</div>

@@ -1,0 +1,173 @@
+<!-- Pantallas extrachicas -->
+<div class="container-fluid">
+    <div class="p-2 xsm-img">
+        <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+            style="width: 108px; height: 24px; margin-bottom: 12px;" alt="" class="my-4">
+        <form action="formLogin" [formGroup]="formLogin">
+            <div *ngIf="page1">
+                <h4>Iniciar sesión</h4>
+                <p class="text-sm-left text-danger" *ngIf="alert">Escriba una dirección de correo electrónico, un número de teléfono o un nombre Skype válidos.</p>
+                <input formControlName="email" type="text" (input)="clear()"
+                    placeholder="Escriba su correo electrónico, teléfono o Skype.">
+                <p class="mt-2">¿No tiene una cuenta? <a class="href" routerLink="login">Crear una.</a></p>
+                <a class="href" routerLink="/login" routerLinkActive="router-link-active">¿No puede acceder a su cuenta?</a>
+                <div class="d-flex flex-row-reverse my-4">
+                    <button class="btnSig" (click)="next()">Siguiente</button>
+                    <button class="btnAtras" routerLink="office">Atrás</button>
+                </div>
+            </div>
+            <div *ngIf="page2">
+                <div class="d-flex flex-row flex-wrap">
+                    <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/arrow_left_a9cc2824ef3517b6c4160dcf8ff7d410.svg" alt="" class="iconoBack" (click)="back()">
+                    <p>{{correo}}</p>
+                </div>
+                <h4>Escribir contraseña</h4>
+                <input formControlName="password" type="password" placeholder="Contraseña">
+                <a class="mt-4" routerLink="login" routerLinkActive="router-link-active"><p class="mt-3">He olvidado mi contraseña</p></a>
+                <div class="d-flex flex-row-reverse my-4">
+                    <button class="btnSig" (click)="login()">Siguiente</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Pantallas chicas -->
+<div class="sm-img">
+    <div class="m-0 d-flex vh-100 row justify-content-center align-items-center">
+        <div class="card col-auto p-5 my-4 corral">
+            <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+                style="width: 108px; height: 24px; margin-bottom: 12px;" alt="">
+            <form action="formLogin" [formGroup]="formLogin">
+                <div *ngIf="page1">
+                    <h4>Iniciar sesión</h4>
+                    <p class="text-sm-left text-danger" *ngIf="alert">Escriba una dirección de correo electrónico, un número de teléfono o un nombre Skype válidos.</p>
+                    <input formControlName="email" type="text" (input)="clear()"
+                        placeholder="Escriba su correo electrónico, teléfono o Skype.">
+                    <p class="mt-2">¿No tiene una cuenta? <a class="href" routerLink="login">Crear una.</a></p>
+                    <a class="href" routerLink="/login" routerLinkActive="router-link-active">¿No puede acceder a su cuenta?</a>
+                    <div class="d-flex flex-row-reverse my-4">
+                        <button class="btnSig" (click)="next()">Siguiente</button>
+                        <button class="btnAtras" routerLink="office">Atrás</button>
+                    </div>
+                </div>
+                <div *ngIf="page2">
+                    <div class="d-flex flex-row flex-wrap">
+                        <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/arrow_left_a9cc2824ef3517b6c4160dcf8ff7d410.svg" alt="" class="iconoBack" (click)="back()">
+                        <p>{{correo}}</p>
+                    </div>
+                    <h4>Escribir contraseña</h4>
+                    <input formControlName="password" type="text" placeholder="Contraseña">
+                    <a class="mt-4" routerLink="login" routerLinkActive="router-link-active"><p class="mt-3">He olvidado mi contraseña</p></a>
+                    <div class="d-flex flex-row-reverse my-4">
+                        <button class="btnSig" (click)="login()">Siguiente</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Pantallas medianas -->
+<div class="md-img">
+    <div class="m-0 d-flex vh-100 row justify-content-center align-items-center">
+        <div class="card col-auto p-5 my-4 corral">
+            <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+                style="width: 108px; height: 24px; margin-bottom: 12px;" alt="">
+            <form action="formLogin" [formGroup]="formLogin">
+                <div *ngIf="page1">
+                    <h4>Iniciar sesión</h4>
+                    <p class="text-sm-left text-danger" *ngIf="alert">Escriba una dirección de correo electrónico, un número de teléfono o un nombre Skype válidos.</p>
+                    <input formControlName="email" type="text" (input)="clear()"
+                        placeholder="Escriba su correo electrónico, teléfono o Skype.">
+                    <p class="mt-2">¿No tiene una cuenta? <a class="href" routerLink="login">Crear una.</a></p>
+                    <a class="href" routerLink="/login" routerLinkActive="router-link-active">¿No puede acceder a su cuenta?</a>
+                    <div class="d-flex flex-row-reverse my-4">
+                        <button class="btnSig" (click)="next()">Siguiente</button>
+                        <button class="btnAtras" routerLink="office">Atrás</button>
+                    </div>
+                </div>
+                <div *ngIf="page2">
+                    <div class="d-flex flex-row flex-wrap">
+                        <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/arrow_left_a9cc2824ef3517b6c4160dcf8ff7d410.svg" alt="" class="iconoBack" (click)="back()">
+                        <p>{{correo}}</p>
+                    </div>
+                    <h4>Escribir contraseña</h4>
+                    <input formControlName="password" type="text" placeholder="Contraseña">
+                    <a class="mt-4" routerLink="login" routerLinkActive="router-link-active"><p class="mt-3">He olvidado mi contraseña</p></a>
+                    <div class="d-flex flex-row-reverse my-4">
+                        <button class="btnSig" (click)="login()">Siguiente</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Pantallas grande -->
+<div class="lg-img">
+    <div class="m-0 d-flex vh-100 row justify-content-center align-items-center">
+        <div class="card col-auto p-5 my-4 corral">
+            <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+                style="width: 108px; height: 24px; margin-bottom: 12px;" alt="">
+            <form action="formLogin" [formGroup]="formLogin">
+                <div *ngIf="page1">
+                    <h4>Iniciar sesión</h4>
+                    <p class="text-sm-left text-danger" *ngIf="alert">Escriba una dirección de correo electrónico, un número de teléfono o un nombre Skype válidos.</p>
+                    <input formControlName="email" type="text" (input)="clear()"
+                        placeholder="Escriba su correo electrónico, teléfono o Skype.">
+                    <p class="mt-2">¿No tiene una cuenta? <a class="href" routerLink="login">Crear una.</a></p>
+                    <a class="href" routerLink="/login" routerLinkActive="router-link-active">¿No puede acceder a su cuenta?</a>
+                    <div class="d-flex flex-row-reverse my-4">
+                        <button class="btnSig" (click)="next()">Siguiente</button>
+                        <button class="btnAtras" routerLink="office">Atrás</button>
+                    </div>
+                </div>
+                <div *ngIf="page2">
+                    <div class="d-flex flex-row flex-wrap">
+                        <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/arrow_left_a9cc2824ef3517b6c4160dcf8ff7d410.svg" alt="" class="iconoBack" (click)="back()">
+                        <p>{{correo}}</p>
+                    </div>
+                    <h4>Escribir contraseña</h4>
+                    <input formControlName="password" type="text" placeholder="Contraseña">
+                    <a class="mt-4" routerLink="login" routerLinkActive="router-link-active"><p class="mt-3">He olvidado mi contraseña</p></a>
+                    <div class="d-flex flex-row-reverse my-4">
+                        <button class="btnSig" (click)="login()">Siguiente</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Pantallas extra grande -->
+<div class="xlg-img">
+    <div class="m-0 d-flex vh-100 row justify-content-center align-items-center">
+        <div class="card col-auto p-5 my-4 corral">
+            <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+                style="width: 108px; height: 24px; margin-bottom: 12px;" alt="">
+            <form action="formLogin" [formGroup]="formLogin">
+                <div *ngIf="page1">
+                    <h4>Iniciar sesión</h4>
+                    <p class="text-sm-left text-danger" *ngIf="alert">Escriba una dirección de correo electrónico, un número de teléfono o un nombre Skype válidos.</p>
+                    <input formControlName="email" type="text" (input)="clear()"
+                        placeholder="Escriba su correo electrónico, teléfono o Skype.">
+                    <p class="mt-2">¿No tiene una cuenta? <a class="href" routerLink="login">Crear una.</a></p>
+                    <a class="href" routerLink="/login" routerLinkActive="router-link-active">¿No puede acceder a su cuenta?</a>
+                    <div class="d-flex flex-row-reverse my-4">
+                        <button class="btnSig" (click)="next()">Siguiente</button>
+                        <button class="btnAtras" routerLink="office">Atrás</button>
+                    </div>
+                </div>
+                <div *ngIf="page2">
+                    <div class="d-flex flex-row flex-wrap">
+                        <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/arrow_left_a9cc2824ef3517b6c4160dcf8ff7d410.svg" alt="" class="iconoBack" (click)="back()">
+                        <p>{{correo}}</p>
+                    </div>
+                    <h4>Escribir contraseña</h4>
+                    <input formControlName="password" type="text" placeholder="Contraseña">
+                    <a class="mt-4" routerLink="login" routerLinkActive="router-link-active"><p class="mt-3">He olvidado mi contraseña</p></a>
+                    <div class="d-flex flex-row-reverse my-4">
+                        <button class="btnSig" (click)="login()">Siguiente</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
